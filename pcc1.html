@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Car Care</title>
+<meta name="description" content="Prestige Car Care offers high-quality car detailing services including exterior, interior, engine cleaning, and more. Book now!">
+<meta name="keywords" content="car detailing, exterior detailing, interior cleaning, engine cleaning, truck detailing">
+<meta name="author" content="Car Care Team">
+<link rel="stylesheet"
+href="style.css">
+</head>
+<body>
+  <!-- Header with Logo and Navigation -->
+  <header>
+    <div class="logo">Car Care</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#booking">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Welcome to Car Care</h1>
+      <p>Your car deserves the best treatment.</p>
+      <a href="#booking">Book Now</a>
+    </div>
+  </section>
+  
+  <!-- Services Section -->
+  <section class="services">
+  
+    <h2>Our Services</h2>
+    <div class="service-item">
+      <img src="images/pccrr.jpg" alt="Exterior Detailing" width="100">
+      <div>
+        <h3>Exterior Detailing</h3>
+        <p>Experience a brilliant shine with our exterior detailing service.</p>
+      </div>
+    </div>
+    <div class="service-item">
+      <img src="images/pccinterior.jfif" alt="Interior Detailing" width="100">
+      <div>
+        <h3>Interior Detailing</h3>
+        <p>Keep your car’s interior immaculate with our thorough cleaning.</p>
+      </div>
+    </div>
+    <div class="service-item">
+       <img src="images/pcctruck.jpg" alt="Truck Detailing" width="85">
+       <div> 
+         <h3>Truck Detailing</h3>
+         <p>Unbelievable deep detailing of your truck.</p>
+       </div>
+     </div>
+      <div class="service-item">
+      <img src="images/pccengine.jfif" alt="Engine Cleaning" width="100">
+      <div>
+        <h3>Engine Cleaning</h3>
+        <p>Professional engine cleaning to ensure optimal performance.</p>
+      </div>
+    </div>
+     <div class="service-item">
+       <img src="images/pccceramic.jfif" alt="Polishing" width="100">
+       <div>
+         <h3>Polishing</h3>
+         <p>Make your car shine like a sunshine.</p>
+       </div>
+     </div>
+</section>
+  
+ <!-- Testimonials Section -->
+<section class="testimonials">
+  <h2>What Our Customers Say</h2>
+  <div class="testimonial">
+    <p>"The best car detailing service I've ever used. My car looks brand new!"</p>
+    <h4>Ana Kacharava</h4>
+  </div>
+  <div class="testimonial">
+    <p>"Great service, excellent attention to detail. Highly recommend!"</p>
+    <h4>luka kirovi</h4>
+  </div>
+</section> 
+  
+  <!-- Booking Section -->
+  <section class="booking" id="booking">
+    <h2>Book Your Detailing Appointment</h2>
+    <form id="bookingForm">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+      <div>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div>
+        <label for="service">Service Type</label>
+        <select id="service" name="service" required>
+          <option value="">Select a Service</option>
+          <option value="exterior">Exterior Detailing</option>
+          <option value="interior">Interior Detailing</option>
+          <option value="engine">Engine Cleaning</option>
+          <option value="engine">Truck Detailing</option>
+          <option value="engine">Polishing</option>
+        </select>
+      </div>
+      <div class="full-width">
+        <label for="date">Preferred Date & Time</label>
+        <input type="datetime-local" id="date" name="date" required>
+      </div>
+      <div class="full-width">
+        <label for="notes">Additional Notes</label>
+        <textarea id="notes" name="notes" rows="4" placeholder="Any additional information"></textarea>
+      </div>
+      <div class="full-width">
+        <button type="submit">Submit Booking</button>
+      </div>
+    </form>
+  </section>
+<!-- Services Section -->
+  <section class="contact">
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>If you have any questions, feel free to reach out!</p>
+  
+  <!-- Google Map Embed -->
+  <div class="google-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.286303121019!2d-122.08424948466243!3d37.42199977982565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbbd1e4b8c637%3A0x2a2b4e5e1f0e91da!2sGoogleplex!5e0!3m2!1sen!2sus!4v1633104012335!5m2!1sen!2sus" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+  
+  <!-- Location URL (Link to open map) -->
+  <p><a href="https://maps.app.goo.gl/uvqeR2c27ep52BMB6" target="_blank" class="location-link">View our location on Google Maps</a></p>
+</section>
+<!-- Newsletter Signup Section -->
+<section class="newsletter">
+  <h2>Subscribe to Our Newsletter</h2>
+  <p>Get the latest updates on car care services and special offers.</p>
+  <form id="newsletterForm">
+    <input type="email" id="newsletterEmail" placeholder="Your email address" required>
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Car Care. All Rights Reserved.</p>
+    <p>Contact us: info@carcare.com | (+995) 555 33 02 47</p>
+  </footer>
+  <p>&copy; 2025 Car Care. All Rights Reserved.</p>
+  <div class="social-links">
+    <a href="https://facebook.com" target="https://www.facebook.com/share/1A1Y8oXb7G/">Facebook</a>
+    <a href="https://instagram.com" target="https://www.instagram.com/_lashaturmanidze?igsh=MTRvZWowOGU1cnoxeg==
+">Instagram</a>
+  </div>
+</footer>
+  
+  <script>
+    // Simple Booking Form Handler
+    document.getElementById('bookingForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your booking! We will contact you shortly.');
+      this.reset();
+    });
+  </script>
+<script>
+  window.addEventListener('scroll', function() {
+    let header = document.querySelector('header');
+    if (window.scrollY > 50) {
+      header.style.backgroundColor = '#002244'; // Change to a darker color
+    } else {
+      header.style.backgroundColor = '#003366'; // Original color
+    }
+  });
+</script>
+</body>
+</html>
